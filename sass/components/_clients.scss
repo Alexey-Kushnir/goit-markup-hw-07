@@ -8,8 +8,10 @@
   margin-bottom: 50px;
 }
 
-.container .clients-list {
-  display: flex;
+.container {
+  .clients-list {
+    display: flex;
+  }
 }
 
 .clients-list-link {
@@ -25,12 +27,12 @@
   transition-property: fill, border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.clients-list-link:hover,
-.clients-list-link:focus {
-  fill: var(--first-accent-color);
-  border: 1px solid var(--first-accent-color);
+  &:hover,
+  &:focus {
+    fill: var(--first-accent-color);
+    border: 1px solid var(--first-accent-color);
+  }
 }
 
 .clients-list-item:not(:last-child) {
