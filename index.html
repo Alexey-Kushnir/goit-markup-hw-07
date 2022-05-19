@@ -18,38 +18,38 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- header -->
     <header class="header">
       <div class="container">
-        <a class="logo link" href="./index.html">
-          <span class="logo-1">Web</span><span class="logo-2">Studio</span>
+        <a class="logo header__logo link" href="./index.html">
+          <span class="logo__part1">Web</span><span class="logo__part2">Studio</span>
         </a>
         <nav class="header-nav">
           <ul class="header-links list">
-            <li class="header-item link">
-              <a href="./index.html" class="header-link link current">Студия</a>
+            <li class="header-links__item link">
+              <a href="./index.html" class="header-links__link link current">Студия</a>
             </li>
-            <li class="header-item link">
-              <a href="./portfolio.html" class="header-link link">Портфолио</a>
+            <li class="header-links__item link">
+              <a href="./portfolio.html" class="header-links__link link">Портфолио</a>
             </li>
-            <li class="header-item"><a href="#contacts" class="header-link link">Контакты</a></li>
+            <li class="header-links__item"><a href="#contacts" class="header-links__link link">Контакты</a></li>
           </ul>
         </nav>
         <ul class="header-contacts list">
-          <li class="header-contact-item">
-            <a href="mailto:info@devstudio.com" class="header-contact link">
-              <svg class="header-contact-icon" width="16" height="12">
+          <li class="header-contacts__item">
+            <a href="mailto:info@devstudio.com" class="header-contacts__contact link">
+              <svg class="header-contacts__icon" width="16" height="12">
                 <use href="./images/icons.svg#env"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="header-contact-item">
-            <a href="tel:+380961111111" class="header-contact link">
-              <svg class="header-contact-icon" width="10" height="16">
+          <li class="header-contacts__item">
+            <a href="tel:+380961111111" class="header-contacts__contact link">
+              <svg class="header-contacts__icon" width="10" height="16">
                 <use href="./images/icons.svg#smart"></use>
               </svg>
               +38 096 111 11 11</a
@@ -63,58 +63,58 @@
       <!-- эффективные решения   -->
       <section class="hero">
         <div class="container">
-          <h1 class="hero-item">
+          <h1 class="hero__item">
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
-          <button type="button" class="hero-btn" data-modal-open>Заказать услугу</button>
+          <button type="button" class="hero__btn btn" data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <!-- преимущества -->
       <section class="benef section">
         <div class="container">
           <ul class="benef-list list">
-            <li class="benef-list-item">
-              <div class="benef-list-block">
-                <svg class="benef-list-icon" width="70" height="70">
+            <li class="benef-list__item">
+              <div class="benef-list__block">
+                <svg class="benef-list__icon" width="70" height="70">
                   <use href="./images/icons.svg#ant"></use>
                 </svg>
               </div>
-              <h3 class="benef-title">Внимание к деталям</h3>
-              <p class="benef-text">
+              <h3 class="benef-list__title">Внимание к деталям</h3>
+              <p class="benef-list__text">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li class="benef-list-item">
-              <div class="benef-list-block">
-                <svg class="benef-list-icon" width="70" height="70">
+            <li class="benef-list__item">
+              <div class="benef-list__block">
+                <svg class="benef-list__icon" width="70" height="70">
                   <use href="./images/icons.svg#clock"></use>
                 </svg>
               </div>
-              <h3 class="benef-title">Пунктуальность</h3>
-              <p class="benef-text">
+              <h3 class="benef-list__title">Пунктуальность</h3>
+              <p class="benef-list__text">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li class="benef-list-item">
-              <div class="benef-list-block">
-                <svg class="benef-list-icon" width="70" height="70">
+            <li class="benef-list__item">
+              <div class="benef-list__block">
+                <svg class="benef-list__icon" width="70" height="70">
                   <use href="./images/icons.svg#diag"></use>
                 </svg>
               </div>
-              <h3 class="benef-title">Планирование</h3>
-              <p class="benef-text">
+              <h3 class="benef-list__title">Планирование</h3>
+              <p class="benef-list__text">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li class="benef-list-item">
-              <div class="benef-list-block">
-                <svg class="benef-list-icon" width="70" height="70">
+            <li class="benef-list__item">
+              <div class="benef-list__block">
+                <svg class="benef-list__icon" width="70" height="70">
                   <use href="./images/icons.svg#astro"></use>
                 </svg>
               </div>
-              <h3 class="benef-title">Современные технологии</h3>
-              <p class="benef-text">
+              <h3 class="benef-list__title">Современные технологии</h3>
+              <p class="benef-list__text">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
               </p>
             </li>
@@ -124,37 +124,37 @@
       <!-- чем мы занимаемся -->
       <section class="wwdo">
         <div class="container">
-          <h2 class="wwdo-title">Чем мы занимаемся</h2>
+          <h2 class="wwdo__title">Чем мы занимаемся</h2>
           <ul class="wwdo-list list">
-            <li class="wwdo-item">
+            <li class="wwdo-list__item">
               <img
                 src="./images/box_1-min.jpg"
                 alt="Десктопные приложения"
                 width="370"
                 height="294"
               />
-              <div class="wwdo-item-block">
-                <p class="wwdo-item-title">Десктопные приложения</p>
+              <div class="wwdo-item__block">
+                <p class="wwdo-item__title">Десктопные приложения</p>
               </div>
             </li>
-            <li class="wwdo-item">
+            <li class="wwdo-list__item">
               <img
                 src="./images/box_2-min.jpg"
                 alt="Мобильные приложения"
                 width="370"
                 height="294"
               />
-              <div class="wwdo-item-block"><p class="wwdo-item-title">Мобильные приложения</p></div>
+              <div class="wwdo-item__block"><p class="wwdo-item__title">Мобильные приложения</p></div>
             </li>
-            <li class="wwdo-item">
+            <li class="wwdo-list__item">
               <img
                 src="./images/box_3-min.jpg"
                 alt="Дизайнерские решения"
                 width="370"
                 height="294"
               />
-              <div class="wwdo-item-block">
-                <p class="wwdo-item-title">Дизайнерские решения</p>
+              <div class="wwdo-item__block">
+                <p class="wwdo-item__title">Дизайнерские решения</p>
               </div>
             </li>
           </ul>
@@ -396,7 +396,7 @@
       <div class="container">
         <div class="footer-logo-address">
           <a class="logo-footer link" href="./index.html">
-            <span class="logo-1">Web</span><span class="logo-3">Studio</span>
+            <span class="logo__part1">Web</span><span class="logo-3">Studio</span>
           </a>
           <address id="contacts" class="footer-adress">
             <ul class="footer-adress-list list">
@@ -465,6 +465,7 @@
         </form>
       </div>
     </footer>
+    <!-- modal -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
