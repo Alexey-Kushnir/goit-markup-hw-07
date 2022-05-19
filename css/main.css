@@ -59,11 +59,45 @@ body {
   padding: 94px 0px;
 }
 
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--first-title-color);
+  cursor: pointer;
+  padding: 10px 32px;
+  height: 50px;
+  min-width: 200px;
+  border-radius: 4px;
+  margin: 0 auto;
+  background-color: var(--first-accent-color);
+  border: 0;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn:hover, .btn:focus {
+  background-color: var(--second-accent-color);
 }
 
 .header {
@@ -190,31 +224,6 @@ body {
   margin-bottom: 30px;
 }
 
-.btn {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--first-title-color);
-  cursor: pointer;
-  padding: 10px 32px;
-  height: 50px;
-  min-width: 200px;
-  border-radius: 4px;
-  margin: 0 auto;
-  background-color: var(--first-accent-color);
-  border: 0;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.btn:hover, .btn:focus {
-  background-color: var(--second-accent-color);
-}
-
 .benef-list {
   display: flex;
 }
@@ -255,12 +264,6 @@ body {
   padding-bottom: 94px;
 }
 .wwdo__title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--second-title-color);
   margin-bottom: 50px;
 }
 .wwdo-list {
@@ -298,12 +301,6 @@ body {
 }
 
 .team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--second-title-color);
   margin-bottom: 50px;
 }
 
@@ -380,12 +377,6 @@ body {
 }
 
 .clients-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--second-title-color);
   margin-bottom: 50px;
 }
 

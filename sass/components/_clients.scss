@@ -1,10 +1,4 @@
 .clients-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--second-title-color);
   margin-bottom: 50px;
 }
 
@@ -27,7 +21,6 @@
   transition-property: fill, border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
   &:hover,
   &:focus {
     fill: var(--first-accent-color);

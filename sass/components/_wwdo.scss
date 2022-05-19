@@ -1,28 +1,17 @@
 .wwdo {
   padding-bottom: 94px;
-
   &__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--second-title-color);
     margin-bottom: 50px;
   }
-
   &-list {
     display: flex;
   }
-
   &-list__item:not(:last-child) {
     margin-right: 30px;
   }
-
   &-list__item {
     position: relative;
   }
-
   &-item__block {
     position: absolute;
     bottom: 0;
@@ -33,7 +22,6 @@
     height: 70px;
     background: rgba(47, 48, 58, 0.8);
   }
-
   &-item__title {
     font-weight: 700;
     font-size: 14px;
