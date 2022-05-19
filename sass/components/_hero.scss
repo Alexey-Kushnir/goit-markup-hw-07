@@ -8,17 +8,17 @@
   background-position: center;
   max-width: 1600px;
   margin: 0 auto;
-}
 
-.hero__item {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--first-title-color);
-  margin-bottom: 30px;
+  &__item {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--first-title-color);
+    margin-bottom: 30px;
+  }
 }
 
 .btn {
@@ -41,9 +41,9 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.btn:hover,
-.btn:focus {
-  background-color: var(--second-accent-color);
+  &:hover,
+  &:focus {
+    background-color: var(--second-accent-color);
+  }
 }

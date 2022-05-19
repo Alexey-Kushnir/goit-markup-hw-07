@@ -80,16 +80,12 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-
-.header__logo {
-  margin-right: 93px;
-}
-
-.logo__part1 {
+.logo__part1,
+.logo-footer__part1 {
   color: var(--first-accent-color);
 }
-
-.logo__part2 {
+.logo__part2,
+.logo-footer__part2 {
   color: #000000;
 }
 
@@ -97,11 +93,13 @@ body {
   display: flex;
   align-items: center;
 }
+.header__logo {
+  margin-right: 93px;
+}
 
 .header-links {
   display: flex;
 }
-
 .header-links__link {
   display: flex;
   font-weight: 500;
@@ -112,7 +110,6 @@ body {
   padding: 32px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .header-links__item:not(:last-child) {
   margin-right: 50px;
 }
@@ -122,7 +119,6 @@ body {
   align-items: center;
   margin-left: auto;
 }
-
 .header-contacts__contact {
   font-weight: 500;
   font-size: 14px;
@@ -134,9 +130,14 @@ body {
   align-items: center;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .header-contacts__item:not(:first-child) {
   margin-left: 50px;
+}
+.header-contacts__icon {
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  fill: currentColor;
 }
 
 .header-contacts__contact:hover,
@@ -156,7 +157,6 @@ body {
   color: var(--first-accent-color);
   position: relative;
 }
-
 .current::after {
   position: absolute;
   bottom: -1%;
@@ -169,13 +169,6 @@ body {
   background-color: var(--first-accent-color);
 }
 
-.header-contacts__icon {
-  margin-right: 10px;
-  justify-content: center;
-  align-items: center;
-  fill: currentColor;
-}
-
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -186,7 +179,6 @@ body {
   max-width: 1600px;
   margin: 0 auto;
 }
-
 .hero__item {
   font-weight: 900;
   font-size: 44px;
@@ -219,25 +211,20 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.btn:hover,
-.btn:focus {
+.btn:hover, .btn:focus {
   background-color: var(--second-accent-color);
 }
 
 .benef-list {
   display: flex;
 }
-
 .benef-list__item {
   width: 270px;
   margin-right: 30px;
 }
-
 .benef-list__item:not(:last-child) {
   margin-right: 30px;
 }
-
 .benef-list__title {
   font-weight: 700;
   font-size: 14px;
@@ -247,14 +234,12 @@ body {
   color: var(--second-title-color);
   margin-bottom: 10px;
 }
-
 .benef-list__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--font-text-color);
 }
-
 .benef-list__block {
   display: flex;
   margin-bottom: 30px;
